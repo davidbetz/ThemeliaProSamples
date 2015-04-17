@@ -1,0 +1,1 @@
+<% @ServiceHost Service="Sample.Service.ContactService" Factory="Sample.Service.Activation.ContactServiceHostFactory" %>

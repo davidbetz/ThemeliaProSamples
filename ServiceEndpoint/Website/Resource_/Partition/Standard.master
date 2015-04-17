@@ -1,0 +1,27 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" CodeFile="Standard.master.cs" Inherits="WebSite.Partition.Standard" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <script type="text/javascript" src="/Resource_/Lib/prototype-1.6.0.3.js"></script>
+    <script type="text/javascript" src="/Resource_/Lib/PrototypeExtension.js"></script>
+    <script type="text/javascript" src="/Resource_/Lib/Themelia/AspNet.js"></script>
+    <script type="text/javascript" src="/Resource_/Lib/Themelia/Trace.js"></script>
+    <script type="text/javascript" src="/Resource_/Lib/Themelia/WCF.js"></script>
+    <script type="text/javascript" src="/Resource_/Code/Configuration.js"></script>
+    <script type="text/javascript" src="/Resource_/Code/Initialization.js"></script>
+    <link rel="Stylesheet" type="text/css" href="/Resource_/Style/default.css" />
+    <asp:ContentPlaceHolder id="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form01" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="cphBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <script type="text/javascript">
+    document.observe('dom:loaded', Initialization.init);
+    </script>
+    </form>
+</body>
+</html>

@@ -1,0 +1,1 @@
+This sample is for IIS7 only.  If you are on Windows Vista, you have IIS7 (not everyone knows this).

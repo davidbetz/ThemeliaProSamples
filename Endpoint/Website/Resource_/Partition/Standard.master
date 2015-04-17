@@ -1,0 +1,17 @@
+﻿<%@ Master Language="C#" AutoEventWireup="false" CodeFile="Standard.master.cs" Inherits="WebSite.Partition.Standard" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="/Resource_/Style/default.css" type="text/css" rel="Stylesheet" />
+    <asp:ContentPlaceHolder id="cphHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form01" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="cphBody" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+</body>
+</html>
